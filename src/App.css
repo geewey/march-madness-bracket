@@ -1,0 +1,83 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.region-container {
+  display: flex;
+  align-items: center;
+  max-width: 90vw;
+  height: 80vh;
+  gap: 10px;
+
+  border: 3px solid orange;
+  padding: 10px;
+  margin: 5px;
+}
+
+.final-4-container {
+  display: flex;
+  align-items: center;
+  max-width: 50vw;
+  height: 25vh;
+  gap: 10px;
+
+  border: 3px solid orange;
+  padding: 10px;
+  margin: 5px;
+}
+
+/* unused right now */
+.column {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  flex: 1; /* Make each column equal width */
+  gap: 10px; /* Space between items */
+}
+
+.round-container {
+  background-color: lightcyan;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+/* Adjust the height of the items to simulate rows */
+.teams16 {
+  height: 96%;
+}
+.teams8 {
+  height: 72%;
+}
+.teams4 {
+  height: 48%;
+}
+.teams2 {
+  height: 24%;
+}
+
+.game {
+  border: 2px solid gray;
+  padding: 10px;
+  margin: 5px;
+}
+
+.team {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  transition: 100ms ease-in-out;
+}
+
+/* mouseover action */
+.team:hover {
+  background-color: lightsteelblue;
+}
